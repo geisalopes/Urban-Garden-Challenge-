@@ -1,33 +1,59 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f0f0f0;
+  background-color: #b9deccc0;
 }
 
+.container {
+  background-color: white;
+  max-width: 1800px;
+  margin: 80px;
+}
+
+/* Begin of Header */
 header {
-  background-color: #46b2b4;
-  color: #fff;
+  padding: 100px 50px;
+  background-color: #fffdf6;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.grid-item {
   padding: 20px;
-  text-align: center;
 }
 
-main {
-  padding: 20px;
+/* Garante que a imagem se ajuste à largura do contêiner pai */
+.grid-item img {
+  max-width: 100%;
 }
 
-section {
-  margin-bottom: 30px;
+/* End of Header */
+
+.why-having-urban-gardens {
+  padding: 200px 50px;
+  background-color: #156875;
+  color: #fffdf6;
 }
 
-h1,
-h2 {
-  color: #fbfdfe;
+.benefits-urban-gardens {
+  padding: 200px 50px;
+  color: #156875;
+  background-color: #fffdf6;
+}
+
+.explore-urban-gardens {
+  padding: 200px 50px;
+  background-color: #156875;
+  color: #fffdf6;
 }
 
 footer {
-  background-color: #d0d0d0;
-  color: #fff;
-  padding: 10px;
+  padding: 200px 50px;
+  background-color: #fffdf6;
   text-align: center;
 }
