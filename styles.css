@@ -6,7 +6,8 @@
 }
 
 body {
-  background-color: #b9deccc0;
+  /* background-color: #b9decc8e; */
+  background-color: var(--primary-color);
 }
 
 h1 {
@@ -29,7 +30,6 @@ li {
 }
 
 .container {
-  background-color: white;
   max-width: 1300px;
   margin: 0 auto;
 }
@@ -63,7 +63,7 @@ header h2 {
 }
 
 /* Garante que a imagem se ajuste à largura do contêiner pai */
-.grid-item img {
+.grid-item-house-img img {
   padding-left: 80px;
   max-width: 60%;
 }
@@ -84,18 +84,29 @@ header h2 {
 
 /* Begin of the why-having-urban-gardens section */
 .why-having-urban-gardens {
+  padding: 50px;
   background-color: #156875;
   color: #fffdf6;
 }
 
+.grid-item-right {
+  padding: 50px 60px 30px 0;
+}
+
+.grid-item-three-img img {
+  padding-left: 90px;
+  max-width: 60%;
+}
+
 .why-having-urban-gardens h1 {
   font-size: 38px;
+  color: var(--secondary-color);
 }
 
 .why-having-urban-gardens p {
   font-size: 20px;
+  color: var(--secondary-color);
 }
-
 
 /* End of the why-having-urban-gardens section */
 
