@@ -67,14 +67,7 @@ header h2 {
   padding-left: 80px;
   max-width: 60%;
 }
-
-/* End of Header */
-
-.benefits-urban-gardens {
-  padding: 200px 50px;
-  color: #156875;
-  background-color: #fffdf6;
-}
+/* END OF THE HEADER */
 
 .explore-urban-gardens {
   padding: 200px 50px;
@@ -82,8 +75,8 @@ header h2 {
   color: #fffdf6;
 }
 
-/* Begin of the why-having-urban-gardens section */
-.why-having-urban-gardens {
+/* BEGIN OF THE MAIN-FIRST-GRID SECTION */
+.main-first-grid {
   padding: 50px;
   background-color: #156875;
   color: #fffdf6;
@@ -93,22 +86,50 @@ header h2 {
   padding: 50px 60px 30px 0;
 }
 
-.grid-item-three-img img {
+.main-first-grid-img img {
   padding-left: 90px;
   max-width: 60%;
 }
 
-.why-having-urban-gardens h1 {
+.main-first-grid h1 {
   font-size: 38px;
   color: var(--secondary-color);
 }
 
-.why-having-urban-gardens p {
+.main-first-grid p {
   font-size: 20px;
   color: var(--secondary-color);
 }
+/* END OF THE MAIN-FIRST-GRID SECTION */
 
-/* End of the why-having-urban-gardens section */
+/* BEGIN OF THE MAIN-SECOND-GRID SECTION */
+
+.main-second-grid {
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 0;
+  padding: 50px;
+  color: #156875;
+  background-color: #fffdf6;
+}
+
+.main-second-grid h1 {
+  margin-left: 50px;
+}
+
+.main-second-grid li {
+  font-size: 20px;
+}
+
+.main-second-grid ul {
+  list-style: square;
+  margin-left: 40px;
+}
+
+.main-second-grid-img img {
+  max-width: 100%;
+}
+
+/* END OF THE MAIN-SECOND-GRID SECTION */
 
 footer {
   padding: 200px 50px;
