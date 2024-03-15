@@ -2,6 +2,8 @@
   --primary-font: "Handlee", cursive;
   --secondary-font: "Poppins", sans-serif;
   --primary-color: #3c929c;
+  --section-two-color: #156875;
+
   --secondary-color: #fffdf6;
 }
 
@@ -69,12 +71,6 @@ header h2 {
 }
 /* END OF THE HEADER */
 
-.explore-urban-gardens {
-  padding: 200px 50px;
-  background-color: #156875;
-  color: #fffdf6;
-}
-
 /* BEGIN OF THE MAIN-FIRST-GRID SECTION */
 .main-first-grid {
   padding: 50px;
@@ -131,8 +127,20 @@ header h2 {
 
 /* END OF THE MAIN-SECOND-GRID SECTION */
 
+.garden-expert {
+  padding: 50px;
+  background-color: var(--section-two-color);
+  color: var(--secondary-color);
+}
+
+.explore-urban-gardens {
+  padding: 200px 50px;
+  color: var(--section-two-color);
+  background-color: var(--secondary-color);
+}
+
 footer {
   padding: 200px 50px;
-  background-color: #fffdf6;
+  background-color: var(--secondary-color);
   text-align: center;
 }
