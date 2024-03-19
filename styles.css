@@ -72,7 +72,7 @@ header h2 {
 /* END OF THE HEADER */
 
 /* BEGIN OF THE MAIN-FIRST-GRID SECTION */
-.main-first-grid {
+.main-first-block {
   padding: 50px;
   background-color: #156875;
   color: #fffdf6;
@@ -82,17 +82,17 @@ header h2 {
   padding: 50px 60px 30px 0;
 }
 
-.main-first-grid-img img {
+.main-first-block-img img {
   padding-left: 90px;
   max-width: 60%;
 }
 
-.main-first-grid h1 {
+.main-first-block h1 {
   font-size: 38px;
   color: var(--secondary-color);
 }
 
-.main-first-grid p {
+.main-first-block p {
   font-size: 20px;
   color: var(--secondary-color);
 }
@@ -100,7 +100,7 @@ header h2 {
 
 /* BEGIN OF THE MAIN-SECOND-GRID SECTION */
 
-.main-second-grid {
+.main-second-block {
   grid-template-columns: 2fr 1fr;
   grid-gap: 0;
   padding: 50px;
@@ -108,15 +108,15 @@ header h2 {
   background-color: #fffdf6;
 }
 
-.main-second-grid h1 {
+.main-second-block h1 {
   margin-left: 50px;
 }
 
-.main-second-grid li {
+.main-second-block li {
   font-size: 20px;
 }
 
-.main-second-grid ul {
+.main-second-block ul {
   list-style: square;
   margin-left: 40px;
 }
