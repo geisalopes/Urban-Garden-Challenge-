@@ -15,28 +15,29 @@
   <body>
     <div class="container">
       <header>
-        <div class="grid grid-2-columns head-grid">
-          <div class="grid-item-left">
+        <div class="grid grid-header">
+          <div class="header-item-left">
             <h1>Urban Gardens</h1>
             <h2>
               Celebrating the beauty and tranquillity that gardens bring to our
               lives.
             </h2>
           </div>
-          <div class="grid-item-house-img">
+          <div class="header-item-right">
             <img src="img/house-garden.png" alt="A house with a urban garden" />
           </div>
         </div>
       </header>
+
       <main>
-        <div class="grid grid-2-columns main-first-block">
-          <div class="main-first-block-img">
+        <div class="grid first-division">
+          <div class="first-division-item-left">
             <img
               src="img/why-having-urban-garden.png"
               alt="Three images about garden"
             />
           </div>
-          <div class="grid-item-right">
+          <div class="first-division-item-right">
             <h1>Why Having Urban Gardens?</h1>
             <p>
               Urban gardens are precious green spaces amidst the hustle and
@@ -51,8 +52,9 @@
             </p>
           </div>
         </div>
-        <div class="grid grid-2-columns main-second-block">
-          <div class="main-second-grid-item-left">
+
+        <div class="grid second-division">
+          <div class="second-division-item-left">
             <h1>Benefits of Urban Gardens</h1>
             <ul>
               <li>Reducing urban heat</li>
@@ -61,45 +63,16 @@
               <li>Mental and physical well-being</li>
             </ul>
           </div>
-          <div class="main-second-grid-img">
-            <img src="img/2.png" alt="" />
+          <div class="second-division-right">
+            <img src="img/2.png" alt="Images of plants and animals" />
           </div>
         </div>
 
-        <div class="main-third">
-          <div class="garden-expert-box">
-            <div class="main-third-item-top">
-              <h1>Welcome to your garden advisor</h1>
-              <p>
-                Our expert is here to help you with tips on how to look after
-                your plants. Type in the name of a plant and have fun!
-              </p>
-            </div>
-            <div class="main-third-item-botton">
-              <form id="garden-advisor-form">
-                <input
-                  type="text"
-                  placeholder="Enter the name of your plant"
-                  autofocus
-                  required
-                  autocomplete="off"
-                  class="instructions"
-                />
-                <input type="submit" class="submit-button" />
-              </form>
-              <div class="advice" id="advice"></div>
-            </div>
-          </div>
-        </div>
+        <div class="third-division"></div>
 
-        <div class="explore-urban-gardens">
-          <h1>Explore</h1>
-          <h2>Explore Berlin's urban gardens</h2>
-        </div>
-
-        <footer>
+        <!-- <footer>
           <h1>2024 Urban Garden. All rights reserved.</h1>
-        </footer>
+        </footer> -->
       </main>
     </div>
     <script src="index.js"></script>

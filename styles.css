@@ -36,7 +36,7 @@ li {
   margin: 0 auto;
 }
 
-/* Begin of Header */
+/* BEGIN OF THE HEADER */
 header {
   margin-top: 80px;
   padding: 50px;
@@ -55,52 +55,53 @@ header h2 {
   display: grid;
 }
 
-.grid-2-columns {
+.grid-header {
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
 }
 
-.grid-item-left {
+.header-item-left {
   padding: 100px 20px 20px 100px;
 }
 
 /* Garante que a imagem se ajuste à largura do contêiner pai */
-.grid-item-house-img img {
+.header-item-right img {
   padding-left: 80px;
   max-width: 60%;
 }
 /* END OF THE HEADER */
 
-/* BEGIN OF THE MAIN-FIRST-GRID SECTION */
-.main-first-block {
+/* BEGIN OF THE MAIN-FIRST-DIVISION */
+.first-division {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
   padding: 50px;
   background-color: #156875;
   color: #fffdf6;
 }
 
-.grid-item-right {
+.first-division-item-right {
   padding: 50px 60px 30px 0;
 }
 
-.main-first-block-img img {
+.first-division-item-left img {
   padding-left: 90px;
   max-width: 60%;
 }
 
-.main-first-block h1 {
+.first-division h1 {
   font-size: 38px;
   color: var(--secondary-color);
 }
 
-.main-first-block p {
+.first-division p {
   font-size: 20px;
   color: var(--secondary-color);
 }
-/* END OF THE MAIN-FIRST-GRID SECTION */
+/* END OF THE MAIN-FIRST-DIVISION */
 
-/* BEGIN OF THE MAIN-SECOND-GRID SECTION */
-
-.main-second-block {
+/* BEGIN OF THE MAIN-SECOND-DIVISION */
+.second-division {
   grid-template-columns: 2fr 1fr;
   grid-gap: 0;
   padding: 50px;
@@ -108,98 +109,23 @@ header h2 {
   background-color: #fffdf6;
 }
 
-.main-second-block h1 {
+.second-division h1 {
   margin-left: 50px;
 }
 
-.main-second-block li {
+.second-division li {
   font-size: 20px;
 }
 
-.main-second-block ul {
+.second-division ul {
   list-style: square;
   margin-left: 40px;
 }
 
-.main-second-grid-img img {
+.second-division-right img {
   max-width: 100%;
 }
 
-/* END OF THE MAIN-SECOND-GRID SECTION */
+/* BEGIN OF THE MAIN-THIRD-DIVISION */
 
-/* BEGIN OF THE MAIN-THIRD SECTION */
-.main-third {
-  padding: 50px;
-  background-color: var(--section-two-color);
-  color: var(--secondary-color);
-}
-
-.garden-expert-box {
-  margin: 120px auto;
-  max-width: 700px;
-}
-
-.main-third h1 {
-  font-size: 48px;
-  text-align: center;
-}
-
-.main-third-item-top p {
-  margin-top: 5px;
-  font-size: 18px;
-  text-align: center;
-}
-
-form {
-  padding: 30px;
-  box-shadow: 0 20px 60px rgba(65, 50, 100, 0.08);
-  background-color: var(--secondary-color);
-  border-radius: 10px;
-  display: flex;
-}
-
-.instructions {
-  padding: 16px;
-  border: 1px solid rgba(39, 33, 66, 0.5);
-  width: 80%;
-  font-size: 16px;
-  border-radius: 50px;
-  line-height: 20px;
-  color: #272044;
-}
-
-.submit-button {
-  margin-left: 10px;
-  background: var(--primary-color);
-  color: var(--secondary-color);
-  border: none;
-  width: 150px;
-  font-size: 16px;
-  border-radius: 50px;
-  padding: 14px 24px;
-}
-
-.advice {
-  margin-top: 20px;
-  padding: 20px;
-  font-size: 18px;
-  line-height: 1.5;
-  text-align: left;
-  color: var(--secondary-color);
-  border-left: 3px solid var(--secondary-color);
-  border-radius: 10px;
-}
-
-/* END OF THE MAIN-THIRD SECTION */
-
-.explore-urban-gardens {
-  padding: 200px 50px;
-  color: var(--section-two-color);
-  background-color: var(--secondary-color);
-}
-
-footer {
-  padding: 200px 50px;
-  background-color: var(--secondary-color);
-  text-align: center;
-}
+/* END OF THE MAIN-THIRD-DIVISION */
