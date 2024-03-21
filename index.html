@@ -10,6 +10,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Urban Garden</title>
   </head>
   <body>
@@ -67,9 +68,21 @@
             <img src="img/2.png" alt="Images of plants and animals" />
           </div>
         </div>
-
-        <div class="third-division"></div>
-
+        <section class="third-division">
+          <h1>Your Garden Expert Advisor</h1>
+          <form id="advice-generator-form">
+            <input
+              type="text"
+              placeholder="Enter the name of a plant"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="advice" id="advice"></div>
+        </section>
         <!-- <footer>
           <h1>2024 Urban Garden. All rights reserved.</h1>
         </footer> -->

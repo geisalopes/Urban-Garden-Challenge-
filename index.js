@@ -1,16 +1,16 @@
 function generateAdvisor(event) {
   event.preventDefault();
 
-  //   let adviceElement = document.querySelector("#advice");
-  //   adviceElement.innerHTML = "Photos are easy to take care";
-
   new Typewriter("#advice", {
-    strings: "Photos are easy to take care",
+    strings: "Pothos are easy to take care",
     autoStart: true,
     delay: 1,
     cursor: "",
   });
 }
 
-let advisorElement = document.querySelector("#garden-advisor-form");
+let advisorElement = document.querySelector("#advice-generator-form");
 advisorElement.addEventListener("submit", generateAdvisor);
+
+// api key
+// bf12f0ob06f7acf048dt44a41aadd939
