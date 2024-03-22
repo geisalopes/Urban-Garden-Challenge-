@@ -11,6 +11,7 @@
     />
     <link rel="stylesheet" href="styles.css" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <title>Urban Garden</title>
   </head>
   <body>
@@ -70,17 +71,21 @@
         </div>
         <section class="third-division">
           <h1>Your Garden Expert Advisor</h1>
-          <form id="advice-generator-form">
-            <input
-              type="text"
-              placeholder="Enter the name of a plant"
-              autofocus
-              required
-              autocomplete="off"
-              class="instructions"
-            />
-            <input type="submit" class="submit-button" />
-          </form>
+          <div class="form-container">
+            <form id="advice-generator-form">
+              <input
+                type="text"
+                placeholder="Enter the name of a plant"
+                autofocus
+                required
+                autocomplete="off"
+                class="instructions"
+                id="user-instructions"
+              />
+              <input type="submit" class="submit-button" />
+            </form>
+            <div class="hint">i.e: Ficus Lyrata, Pothos, Orchid...</div>
+          </div>
           <div class="advice" id="advice"></div>
         </section>
         <!-- <footer>
