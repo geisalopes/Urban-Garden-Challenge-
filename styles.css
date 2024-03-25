@@ -45,6 +45,7 @@ header {
 
 header h1 {
   color: var(--primary-color);
+  font-size: 78px;
 }
 
 header h2 {
@@ -61,7 +62,7 @@ header h2 {
 }
 
 .header-item-left {
-  padding: 100px 20px 20px 100px;
+  padding: 50px 20px 20px 50px;
 }
 
 /* Garante que a imagem se ajuste à largura do contêiner pai */
@@ -102,15 +103,19 @@ header h2 {
 
 /* BEGIN OF THE MAIN-SECOND-DIVISION */
 .second-division {
-  background-color: #fffdf6;
-  color: #156875;
+  /* background-color: #fffdf6; */
+  /* background: #9dd7c2; */
+  /* background: #be9368; */
+  background: #bc6b32;
+  /* color: #156875; */
+  color: #fffdf6;
   grid-gap: 0;
-  grid-template-columns: 2fr 1fr;
-  padding: 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 45px;
 }
 
 .second-division h1 {
-  margin-left: 50px;
+  margin-left: 0;
 }
 
 .second-division li {
@@ -118,13 +123,90 @@ header h2 {
 }
 
 .second-division ul {
-  list-style: square;
-  margin-left: 40px;
+  margin-left: 0;
 }
 
-.second-division-right img {
-  max-width: 100%;
+.robin-image-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
+
+.image-wrapper {
+  height: 280px;
+  overflow: visible;
+  position: relative;
+  width: 380px;
+}
+
+.robin-image {
+  border-radius: 42% 58% 61% 39% / 77% 44% 56% 23%;
+  height: auto;
+  max-width: 400px;
+  position: absolute;
+  top: -90px;
+}
+
+.biodiverty-image-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.bio-image-wrapper {
+  height: 400px;
+  overflow: visible;
+  position: relative;
+  width: 100px;
+}
+
+.butterfly-image {
+  /* border-radius: 62% 38% 71% 29% / 30% 38% 62% 70%; */
+  border-radius: 50%;
+  height: auto;
+  max-width: 150px;
+  position: absolute;
+  top: -30px;
+  right: -130px;
+}
+
+.yoga-image {
+  /* border-radius: 55% 45% 50% 50% / 43% 66% 34% 57%; */
+  border-radius: 50%;
+  height: auto;
+  max-width: 130px;
+  position: absolute;
+  top: 29px;
+  left: -120px;
+}
+
+.heat-image {
+  /* border-radius: 48% 52% 34% 66% / 37% 84% 16% 63%; */
+  border-radius: 50%;
+  height: auto;
+  max-width: 96px;
+  position: absolute;
+  top: 220px;
+  left: 114px;
+}
+
+.dandelions-image {
+  border-radius: 100%;
+  height: auto;
+  max-width: 124px;
+  position: absolute;
+  top: 300px;
+}
+
+.leaves-image {
+  border-radius: 50%;
+  height: auto;
+  max-width: 100px;
+  position: absolute;
+  top: 131px;
+  left: 10px;
+}
+/* END OF THE MAIN-SECOND-DIVISION */
 
 /* BEGIN OF THE THIRD-DIVISION */
 .third-division {
