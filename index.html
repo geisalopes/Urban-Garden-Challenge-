@@ -33,12 +33,24 @@
 
       <main>
         <div class="grid first-division">
-          <div class="first-division-item-left">
-            <img
-              src="img/why-having-urban-garden.png"
-              alt="Three images about garden"
-            />
+          <div class="triad-image-center">
+            <div class="triad-image-wrapper">
+              <img
+                class="triad-image"
+                src="img/triad-images.png"
+                alt="Three Garden Images"
+              />
+            </div>
           </div>
+          <!-- <div class="first-division-item-left">
+            <div class="triad-image-wraper">
+              <img
+                class="triad-image"
+                src="img/triad-images.png"
+                alt="Three images about garden"
+              />
+            </div>
+          </div> -->
           <div class="first-division-item-right">
             <h1>Why Having Urban Gardens?</h1>
             <p>
@@ -81,27 +93,31 @@
           </div>
         </div>
         <section class="third-division">
-          <h1>Your Garden Expert Advisor</h1>
-          <h2>
-            Ask our gardening expert any questions you may have. Type in the
-            name of a plant and they'll tell you how to look after it.
-          </h2>
-          <div class="form-container">
-            <form id="advice-generator-form">
-              <input
-                type="text"
-                placeholder="Enter the name of a plant"
-                autofocus
-                required
-                autocomplete="off"
-                class="instructions"
-                id="user-instructions"
-              />
-              <input type="submit" class="submit-button" />
-            </form>
-            <div class="hint">i.e: Ficus Lyrata, Pothos, Orchid...</div>
+          <div class="third-division-text">
+            <h1>Your Garden Expert Advisor</h1>
+            <h2>
+              Ask our gardening expert any questions you may have. Type in the
+              name of a plant and they'll tell you how to look after it.
+            </h2>
           </div>
-          <div class="advice" id="advice"></div>
+          <div class="form-division">
+            <div class="form-container">
+              <form id="advice-generator-form">
+                <input
+                  type="text"
+                  placeholder="Enter the name of a plant"
+                  autofocus
+                  required
+                  autocomplete="off"
+                  class="instructions"
+                  id="user-instructions"
+                />
+                <input type="submit" class="submit-button" />
+              </form>
+              <div class="hint">i.e: Ficus Lyrata, Pothos, Orchid...</div>
+            </div>
+            <div class="advice" id="advice"></div>
+          </div>
         </section>
         <!-- <footer>
           <h1>2024 Urban Garden. All rights reserved.</h1>
