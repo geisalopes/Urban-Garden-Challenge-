@@ -25,3 +25,11 @@ function generateAdvisor(event) {
 
 let advisorElement = document.querySelector("#advice-generator-form");
 advisorElement.addEventListener("submit", generateAdvisor);
+
+window.addEventListener("load", function () {
+  if ("scrollBehavior" in document.documentElement.style) {
+    document.querySelector("#top").scrollIntoView({ behavior: "smooth" });
+  } else {
+    document.querySelector("#top").scrollIntoView();
+  }
+});
