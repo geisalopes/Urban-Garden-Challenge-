@@ -73,7 +73,7 @@ header h2 {
   top: 50px;
   position: relative;
   border-radius: 48% 52% 34% 66% / 37% 84% 16% 63%;
-  max-width: 85%;
+  max-width: 80%;
 }
 
 /* END OF THE HEADER */
@@ -105,9 +105,9 @@ header h2 {
 
 .triad-image {
   height: auto;
-  max-width: 460px;
+  max-width: 420px;
   position: absolute;
-  top: -150px;
+  top: -105px;
 }
 
 .first-division h1 {
@@ -172,6 +172,7 @@ header h2 {
   align-items: center;
   display: flex;
   justify-content: center;
+  padding-right: 15px;
 }
 
 .bio-image-wrapper {
@@ -239,7 +240,7 @@ header h2 {
   background-color: #fff8ee;
   border-radius: 10px;
   margin-bottom: 30px;
-  padding: 30px 20px;
+  padding: 30px 30px;
 }
 
 .instructions {
@@ -280,5 +281,6 @@ header h2 {
   font-size: 13px;
   line-height: 1.5;
   margin-top: 5px;
+  padding-left: 15px;
 }
 /* END OF THE THIRD-DIVISION */
