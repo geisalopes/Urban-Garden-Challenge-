@@ -1,3 +1,9 @@
+/* Falta ver:
+por que a página está abrindo no fim
+Fazer algo em relação ao form, tirar/ arrumar aquela “(” que fica aparecendo sozinha antes do texto começar
+Colocar footer
+Colocar um fundo de folhas, talvez. */
+
 :root {
   --primary-color: #3c929c;
   --primary-font: "Handlee", cursive;
@@ -8,7 +14,6 @@
 
 body {
   background-color: var(--primary-color);
-
   /* background-color: #b9decc8e; */
 }
 
@@ -70,6 +75,7 @@ header h2 {
   max-width: 70%;
   padding-left: 80px;
 }
+
 /* END OF THE HEADER */
 
 /* BEGIN OF THE MAIN-FIRST-DIVISION */
