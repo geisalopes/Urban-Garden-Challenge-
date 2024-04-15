@@ -39,7 +39,7 @@ li {
   max-width: 1500px;
 }
 
-/* BEGIN OF THE HEADER */
+/* BEGINNING OF THE HEADER */
 header {
   background-color: #bc6b32;
   padding: 0;
@@ -78,7 +78,7 @@ header h2 {
 
 /* END OF THE HEADER */
 
-/* BEGIN OF THE MAIN-FIRST-DIVISION */
+/* BEGINNING OF THE MAIN-FIRST-DIVISION */
 .first-division {
   background-color: #156875;
   grid-gap: 20px;
@@ -121,7 +121,7 @@ header h2 {
 }
 /* END OF THE MAIN-FIRST-DIVISION */
 
-/* BEGIN OF THE MAIN-SECOND-DIVISION */
+/* BEGINNING OF THE MAIN-SECOND-DIVISION */
 .second-division {
   background-color: #b9decc69;
   color: #fffdf6;
@@ -146,20 +146,20 @@ header h2 {
   padding-left: 50px;
 }
 
-.green-thumb-center {
+.green-thumb-image-center {
   align-items: center;
   display: flex;
   justify-content: center;
 }
 
-.image-wrapper {
+.green-thumb-image-wrapper {
   height: 280px;
   overflow: visible;
   position: relative;
   width: 380px;
 }
 
-.green-thumb {
+.green-thumb-image {
   border-radius: 79% 69% 100% 30% / 0% 72% 81% 39%;
   height: auto;
   max-width: 380px;
@@ -168,14 +168,14 @@ header h2 {
   left: -50px;
 }
 
-.biodiverty-image-center {
+.biodiversity-image-center {
   align-items: center;
   display: flex;
   justify-content: center;
   padding-right: 15px;
 }
 
-.bio-image-wrapper {
+.biodiversity-image-wrapper {
   height: 400px;
   overflow: visible;
   position: relative;
@@ -193,7 +193,7 @@ header h2 {
 
 /* END OF THE MAIN-SECOND-DIVISION */
 
-/* BEGIN OF THE THIRD-DIVISION */
+/* BEGINNING OF THE THIRD-DIVISION */
 .third-division {
   background-color: var(--tertiary-color);
   color: var(--secondary-color);
@@ -284,3 +284,28 @@ header h2 {
   padding-left: 15px;
 }
 /* END OF THE THIRD-DIVISION */
+
+/* BEGINNING OF THE FOOTER */
+footer {
+  margin: 50px 0;
+}
+
+footer a {
+  font-size: 28px;
+  font-family: "Allura", cursive;
+  text-decoration: none;
+  color: #a7d8d4;
+}
+
+footer a:hover {
+  color: #b8f0ec;
+}
+
+footer h1 {
+  color: #a7d8d4;
+  font-size: 18px;
+  font-family: var(--secondary-font);
+  font-weight: normal;
+  text-align: center;
+}
+/* END OF THE FOOTER */
