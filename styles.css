@@ -297,13 +297,15 @@ footer h1 {
 @media (max-width: 900px) {
   body {
     overflow-x: hidden;
+    margin: 0;
   }
 
   main {
-    margin: 10px;
+    overflow-x: hidden;
   }
+
   header {
-    margin: 10px;
+    overflow-x: hidden;
   }
 
   header h1 {
@@ -325,9 +327,7 @@ footer h1 {
   }
 
   .header-item-right img {
-    display: flex;
-    justify-content: center;
-    max-width: 300px;
+    max-width: 250px;
     top: -15px;
   }
 
@@ -340,11 +340,14 @@ footer h1 {
   }
 
   .first-division h1 {
-    font-size: 32px;
+    text-align: left;
+    font-size: 28px;
+    margin: 5px 0;
   }
 
   .first-division p {
-    font-size: 18px;
+    font-size: 15px;
+    text-align: left;
   }
 
   .first-division-item-right {
@@ -359,13 +362,13 @@ footer h1 {
   }
 
   .triad-image {
-    max-width: 260px;
-    padding: 0 50px;
-    top: 30px;
+    max-width: 230px;
+    padding: 30px 60px;
+    top: 0;
   }
 
   .triad-image-wrapper {
-    height: 400px;
+    height: 360px;
   }
   .second-division {
     padding: 0;
@@ -376,16 +379,16 @@ footer h1 {
   }
 
   .second-division h1 {
-    font-size: 32px;
+    font-size: 28px;
     padding-left: 0;
   }
 
   .second-division p {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .second-division li {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .second-division ul {
@@ -421,16 +424,17 @@ footer h1 {
   }
 
   .third-division h1 {
-    font-size: 32px;
-    text-align: center;
-    padding: 0 10px;
+    font-size: 28px;
+    text-align: left;
+    margin: 5px 0;
+    padding: 10px 25px;
   }
 
   .third-division h2 {
-    font-size: 18px;
-    text-align: center;
-    padding: 10px;
-    margin: 0;
+    font-size: 15px;
+    text-align: left;
+    padding: 0px 15px 10px 25px;
+    margin: 0px;
   }
 
   .third-division h3 {
