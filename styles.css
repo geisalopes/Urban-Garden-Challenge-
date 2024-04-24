@@ -8,6 +8,7 @@
 
 body {
   background-color: var(--primary-color);
+  margin: 0 auto;
 }
 
 h1 {
@@ -295,7 +296,7 @@ footer h1 {
 
 @media (max-width: 900px) {
   body {
-    margin: 0 auto;
+    overflow-x: hidden;
   }
 
   main {
